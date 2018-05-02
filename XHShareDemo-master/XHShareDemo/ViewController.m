@@ -22,7 +22,7 @@
     [super viewDidLoad];
     CGSize size = [[UIScreen mainScreen] bounds].size;
     CGFloat viewHight = 120;
-    
+    NSLog(@"123");
     UILabel *sao = [[UILabel alloc]init];
     sao.textColor = [UIColor redColor];
     sao.frame = CGRectMake((size.width - 100) * 0.5, 30, 100,100);
