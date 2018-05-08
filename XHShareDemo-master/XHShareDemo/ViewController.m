@@ -28,7 +28,12 @@
     sao.frame = CGRectMake((size.width - 100) * 0.5, 30, 100,100);
     sao.text = @"扫描二维码";
     [self.view addSubview:sao];
-    
+    ////////
+    ////
+    ///
+    ///////
+    ////////////////
+    /////////////////////////
     UIImageView *QRcode = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"2"]];
     QRcode.frame = CGRectMake(size.width * 0.1, 100, size.width * 0.8, size.width * 0.8);
     [self.view addSubview:QRcode];
